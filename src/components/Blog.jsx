@@ -14,7 +14,7 @@ const Blog = () => {
         <div className='container mx-auto max-w-6xl w-full'>
         <p className='font-semibold text-muted-foreground mx-auto'>MY THOUGHTS & IDEAS</p>
 
-            <h2 className='md:text-5xl font-bold text-white mb-2'> Beyond <span className="break-normal bg-gradient-to-r from-[#ff7eb9] via-[#4f2ba3] to-[#3a0ca3] bg-[length:200%_200%] bg-clip-text text-transparent animate-gradient-x">Coding</span></h2>
+            <h2 className='md:text-5xl font-bold text-white mb-2'> Beyond <span className="break-normal bg-gradient-to-r from-[#ff7eb9] via-[#9429db] to-[#4f2ba3] bg-[length:200%_200%] bg-clip-text text-transparent animate-gradient-x">Coding</span></h2>
 
             <p className='pt-4 text-muted-foreground mb-4'>I have a deep passion for learning, particularly in fields that challenge and inspire me—including philosophy, cognitive science, astrophysics, and psychology. I’m also committed to peer-to-peer mentorship, servant leadership and promoting STEM education. Through these experiences, I have learned the importance of democratizing STEM for underprivileged youth in my community. Check out some of my milestones below! 
                 </p>

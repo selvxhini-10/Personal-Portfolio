@@ -64,7 +64,7 @@ export const Header = () => {
 
       <h1 className="text-5xl md:text-7xl font-bold leading-tight text-[#2c1c59]">
        <span className="bg-gradient-to-r from-[#ff7eb9] via-[#4f2ba3] to-[#3a0ca3] bg-[length:200%_200%] bg-clip-text text-transparent animate-gradient-x">Hello, I'm Selvahini</span>
-       <br/><span className="break-normal bg-gradient-to-r from-[#ff7eb9] via-[#4f2ba3] to-[#3a0ca3] bg-[length:200%_200%] bg-clip-text text-transparent animate-gradient-x">Kamalarajan</span>
+       <br/><span className="break-normal bg-gradient-to-r from-[#ff7eb9] via-[#9429db] to-[#4f2ba3] bg-[length:200%_200%] bg-clip-text text-transparent animate-gradient-x">Kamalarajan</span>
        </h1>
      
       <p className="mt-4 text-[17px] font-bold text-[#d498fb] max-w-xl">

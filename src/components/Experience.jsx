@@ -90,10 +90,9 @@ const Experience = () => {
   return (
     <section id="experience" className='text-white py-10 relative container mx-auto max-w-6xl w-full'>
     <motion.div>
-      <p className="font-semibold text-muted-foreground mx-auto">MY WORK</p>
       <h2 className="md:text-5xl font-bold text-white mb-2">
         Work{" "}
-        <span className="break-normal bg-gradient-to-r from-[#ff7eb9] via-[#4f2ba3] to-[#3a0ca3] bg-[length:200%_200%] bg-clip-text text-transparent animate-gradient-x">
+        <span className="break-normal bg-gradient-to-r from-[#ff7eb9] via-[#9429db] to-[#4f2ba3] bg-[length:200%_200%] bg-clip-text text-transparent animate-gradient-x">
           Experience
         </span>
       </h2>

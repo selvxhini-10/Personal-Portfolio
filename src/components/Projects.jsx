@@ -92,8 +92,8 @@ const Projects = () => {
         <div className='container mx-auto max-w-6xl w-full'>
         <p className='font-semibold text-muted-foreground mx-auto'>MY WORK</p>
 
-            <h2 className='md:text-5xl font-bold text-white mb-2'> Featured <span className="break-normal bg-gradient-to-r from-[#ff7eb9] via-[#4f2ba3] to-[#3a0ca3] bg-[length:200%_200%] bg-clip-text text-transparent animate-gradient-x">Projects </span></h2>
-
+            <h2 className='md:text-5xl font-bold text-white mb-2'> Featured <span className="break-normal bg-gradient-to-r from-[#ff7eb9] via-[#9429db] to-[#4f2ba3] bg-[length:200%_200%] bg-clip-text text-transparent animate-gradient-x">Projects </span></h2>
+            
             <p className='text-muted-foreground mb-12'>A curated collection of my recent projects, crafted with user experience, attention to detail and innovative solutions. These projects reflect my ability to address global challenges, work with different technologies, and manage tasks efficiently.</p>
 
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8'>

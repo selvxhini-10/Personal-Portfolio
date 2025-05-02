@@ -24,7 +24,7 @@ transition-all duration-300 ease-in-out hover:-translate-y-1 hover:shadow-lg hov
     {/* LEFT COLUMN */}
     <div className='space-y-6'>
 
-    <h2 className="text-4xl pt-10 md:text-5xl font-bold text-white mb-2">About <span className="break-normal bg-gradient-to-r from-[#ff7eb9] via-[#4f2ba3] to-[#3a0ca3] bg-[length:200%_200%] bg-clip-text text-transparent animate-gradient-x">Me</span></h2>
+    <h2 className="text-4xl pt-10 md:text-5xl font-bold text-white mb-2">About <span className="break-normal bg-gradient-to-r from-[#ff7eb9] via-[#9429db] to-[#4f2ba3] bg-[length:200%_200%] bg-clip-text text-transparent animate-gradient-x">Me</span></h2>
 
       <h3 className='text-2xl font-semibold'>Aspiring Computer Engineer</h3>
 
