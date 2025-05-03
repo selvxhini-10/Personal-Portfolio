@@ -51,8 +51,8 @@ const experiences = [
       skills: ["Technological Agility", "Implementation", "Critical Thinking"],
       points: [
         "Delivered 50+ hands-on Women in Engineering workshops to 1300+ students across Ontario, leveraging my strong communication and organizational skills",
-        "Developed robotics, AI and programming challenges using LEGO Spike Primes, Teachable Machine, Arduino, Micro:bits, and Ozobots, increasing STEM participation by 30% over the term.",
-        "Implemented documentation, budgets and oral presentations using Ontario education standards, developing 40% more innovative STEM outreach content.",
+        "Developed robotics, AI and programming challenges using LEGO Spike Primes, Teachable Machine, Arduino, Micro:bits, and Ozobots, increasing STEM participation",
+        "Implemented documentation, budgets and oral presentations using Ontario education standards, developing 60% more innovative STEM outreach content.",
         "Debugged and troubleshooted electronic devices, circuitry and coding projects, including an AI-powered sign language detection site and Arduino clinostat to simulate microgravity.",
       ],
     },
@@ -67,7 +67,7 @@ const experiences = [
         points: [
           "Enhanced SEO by implementing WCAG 2.0 accessibility standards, PR backlinking, responsive web design and architecture using Editor X, WordPress and JavaScript",
           "Developed and pitched website prototypes using MS Office tools and agile methodologies to improve user interaction, receiving endorsement from national brands",
-          "Led web development team to redesign and monitor 25+ client websites and software applications, improving user experience, accessibility and mobile optimization by 60% ",
+          "Improved user experience, accessibility and mobile optimization by 60% by leading web development team to redesign and monitor 25+ client websites and software applications",
         ],
       },
       {

@@ -16,7 +16,7 @@ const Blog = () => {
 
             <h2 className='md:text-5xl font-bold text-white mb-2'> Beyond <span className="break-normal bg-gradient-to-r from-[#ff7eb9] via-[#9429db] to-[#4f2ba3] bg-[length:200%_200%] bg-clip-text text-transparent animate-gradient-x">Coding</span></h2>
 
-            <p className='pt-4 text-muted-foreground mb-4'>I have a deep passion for learning, particularly in fields that challenge and inspire me—including philosophy, cognitive science, astrophysics, and psychology. I’m also committed to peer-to-peer mentorship, servant leadership and promoting STEM education. Through these experiences, I have learned the importance of democratizing STEM for underprivileged youth in my community. Check out some of my milestones below! 
+            <p className='pt-4 text-muted-foreground mb-4'>I have a deep passion for learning, particularly in fields that challenge and inspire me—including philosophy, cognitive science, astrophysics, and psychology. I’m also committed to peer-to-peer mentorship, servant leadership and promoting STEM education.  
                 </p>
                 
                 <p className='text-muted-foreground mb-4'>A fun fact about me: I published my first short story with Polar Expressions Publishing when I was seven years old! In my free time, I enjoy playing my keyboard, practicing calligraphy and reading dystopian fiction; my favourites being the <i>Hunger Games</i>, <i>Maze Runner</i>, and <i>Scythe </i>series. </p>

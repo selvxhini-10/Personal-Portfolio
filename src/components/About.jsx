@@ -11,15 +11,10 @@ const About = () => {
   return (
     <section
       id="about"
-      className="w-full min-h-screen text-white flex flex-col items-center"
-    >
-       {/* Glossy Purple Card */}
-       {/* <div className="bg-[#1a1330] rounded-[12px] border border-[#3b2d5c] p-5 w-full max-w-7xl mx-auto flex flex-col items-center text-center 
-transition-all duration-300 ease-in-out hover:-translate-y-1 hover:shadow-lg hover:border-[#8c52ff]"> */}
-        {/* Title and Line */}
+      className="w-full text-white flex flex-col items-center">
 
-        <div className=' pb-10 relative container gap-12 max-w-6xl w-full '>
-  <div className='grid grid-cols-1 pb-24 md:grid-cols-2 gap-20 items-center'>
+        <div className='relative container gap-12 max-w-6xl w-full'>
+  <div className='grid grid-cols-1 md:grid-cols-2 gap-20 items-center'>
     
     {/* LEFT COLUMN */}
     <div className='space-y-6'>
@@ -39,7 +34,7 @@ transition-all duration-300 ease-in-out hover:-translate-y-1 hover:shadow-lg hov
 <div className="transition duration-300 ease-in-out hover:shadow-[0_0_20px_#d498fb] hover:border-[#d498fb] inline-flex items-center gap-2 border border-[#b49bff] bg-opacity-90 rounded-full px-3 py-1">
   <MapPinIcon className="text-[#b49bff] h-4 w-4" />
   <span className="text-sm font-semibold text-[#d498fb] whitespace-nowrap">
-  BASc in Computer Engineering
+  Candidate for BASc in Computer Engineering
   </span>
 </div>
 </div>
@@ -140,9 +135,9 @@ transition-all duration-300 ease-in-out hover:-translate-y-1 hover:shadow-lg hov
   </div>
 
   {/* 3D Model */}
-  <div className="w-full h-[500px]">
-          <ComputersCanvas />
-        </div>
+ {/* <div className="w-full h-[500px]">*/}
+      {/*    <ComputersCanvas />*/}
+       {/* </div>*/}
   
 </div>
 

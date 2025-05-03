@@ -15,7 +15,7 @@ const Navbar2 = () => {
         <nav className="flex items-center mx-auto h-24 px-20 fixed top-0 left-0 w-full backdrop-blur-md text-white shadow-md z-20">
             {/* Logo (Left) */}
             <div className="flex-1">
-                <h1 className='text-2xl font-bold text-white'>SK Portfolio</h1>
+                <h1 className='text-2xl font-bold text-white'>Selvahini <span className="break-normal bg-gradient-to-r from-[#ff7eb9] via-[#9429db] to-[#4f2ba3] bg-[length:200%_200%] bg-clip-text text-transparent animate-gradient-x">Kamalarajan</span></h1>
             </div>
             
             {/* Center Navigation Links */}

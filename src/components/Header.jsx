@@ -60,8 +60,6 @@ export const Header = () => {
   </h1>
 </div>
 
-     
-
       <h1 className="text-5xl md:text-7xl font-bold leading-tight text-[#2c1c59]">
        <span className="bg-gradient-to-r from-[#ff7eb9] via-[#4f2ba3] to-[#3a0ca3] bg-[length:200%_200%] bg-clip-text text-transparent animate-gradient-x">Hello, I'm Selvahini</span>
        <br/><span className="break-normal bg-gradient-to-r from-[#ff7eb9] via-[#9429db] to-[#4f2ba3] bg-[length:200%_200%] bg-clip-text text-transparent animate-gradient-x">Kamalarajan</span>
@@ -71,10 +69,6 @@ export const Header = () => {
       Delivering Human-Centered Solutions and User-Friendly Experiences.
       </p>
       </div>
-      
-
-    
-
       <div className="group flex flex-col items-center cursor-pointer">
       <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 flex flex-col items-center z-20 ">
   <span className="mb-16 text-sm text-white pl-6 animate-bounce group-hover:text-[#b49bff]">Click</span>
@@ -84,16 +78,9 @@ export const Header = () => {
   >
     </div>
  
+</div>  
 </div>
-    
-        
 </div>
-
-
-
-</div>
-
- 
       
       </section>
       
