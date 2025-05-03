@@ -141,7 +141,7 @@ const projects = [
   title: "AssistWave - STM32CubeIDE Medical Assistive Device",
   description: "An ultrasonic sensor is used to track hand movements within predefined distance thresholds. An STM32 microcontroller transmits this data via UART communication in Single Wire Half-Duplex Mode to a receiving STM32 Nucleo board over a 1-meter wired connection. Based on the received data, output actions are triggered, such as turning on an LED light, activating a fan, and operating servo motors to open doors.",
   image: "/uart.jpg",
-  tags: ["Unity", "C#"],
+  tags: ["Unity", "C#", "Circuit Schematics", "Breadboarding"],
   demoUrl: "#", 
   githubUrl: "#",
 },
@@ -167,12 +167,12 @@ const Projects = () => {
   return (
     <section
       id="projects"
-      className="text-white relative container mx-auto max-w-6xl w-full "
+      className="sm:w-full text-white flex flex-col items-center px-4 pb-10 sm:pb-0 sm:px-0"
     >
-        <div className='container mx-auto max-w-6xl w-full'>
+        <div className='container sm:mx-auto sm:max-w-6xl w-full'>
         <p className='font-semibold text-muted-foreground mx-auto'>MY WORK</p>
 
-            <h2 className='md:text-5xl font-bold text-white mb-2'> Featured <span className="break-normal bg-gradient-to-r from-[#ff7eb9] via-[#9429db] to-[#4f2ba3] bg-[length:200%_200%] bg-clip-text text-transparent animate-gradient-x">Projects</span></h2>
+            <h2 className='sm:text-5xl text-4xl font-bold text-white mb-2'> Featured <span className="break-normal bg-gradient-to-r from-[#ff7eb9] via-[#9429db] to-[#4f2ba3] bg-[length:200%_200%] bg-clip-text text-transparent animate-gradient-x">Projects</span></h2>
             
             <p className='text-muted-foreground mb-6'>A curated collection of my recent projects, crafted with user experience, attention to detail and innovative solutions. These projects reflect my ability to address global challenges, work with different technologies, and manage tasks efficiently.</p>
 

@@ -9,7 +9,7 @@ const Contact = () => {
       {/* Background video */}
       <video
         src={Blackhole}
-        className="absolute pb-5 scale-125 rotate-180 top-0 left-0 w-full h-full object-cover z-0"
+        className="absolute sm:pb-5 pb-2 sm:scale-125 rotate-180 top-0 left-0 w-full h-full object-cover z-0"
         autoPlay
         muted
         loop

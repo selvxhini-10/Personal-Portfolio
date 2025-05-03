@@ -12,10 +12,10 @@ const Navbar2 = () => {
     return (
       <section id="home">
         {/* Main navigation */}
-        <nav className="flex items-center mx-auto h-24 px-20 fixed top-0 left-0 w-full backdrop-blur-md text-white shadow-md z-20">
+        <nav className="flex items-center mx-auto h-24 px-5 sm:px-20 fixed top-0 left-0 w-full backdrop-blur-md text-white shadow-md z-20">
             {/* Logo (Left) */}
             <div className="flex-1">
-                <h1 className='text-2xl font-bold text-white'>Selvahini <span className="break-normal bg-gradient-to-r from-[#ff7eb9] via-[#9429db] to-[#4f2ba3] bg-[length:200%_200%] bg-clip-text text-transparent animate-gradient-x">Kamalarajan</span></h1>
+                <h1 className='text-x1 sm:text-2xl font-bold text-white'>Selvahini <span className="sm:break-normal bg-gradient-to-r from-[#ff7eb9] via-[#9429db] to-[#4f2ba3] bg-[length:200%_200%] bg-clip-text text-transparent animate-gradient-x">Kamalarajan</span></h1>
             </div>
             
             {/* Center Navigation Links */}
@@ -65,7 +65,8 @@ const Navbar2 = () => {
                     ? 'fixed left-0 top-0 w-full min-h-screen bg-gradient-to-r from-purple-600 via-purple-500 to-indigo-500 ease-in-out duration-500 z-40 flex flex-col items-center justify-center'
                     : 'fixed left-[-100%]'
                 }>
-                <h1 className='w-full text-3xl font-bold text-white m-4 text-center'>SK Portfolio</h1>
+                <h1 className="text-xl sm:text-3xl font-bold text-white text-center px-0 mx-0">Selvahini Kamalarajan</h1>
+
                 <ul className='w-full flex flex-col items-center justify-center space-y-4'>
                     <li className="p-4 flex flex-col items-center bg-gradient-to-r from-purple-600 via-purple-500 to-indigo-500 text-white w-full">
                     <a href="#home" className="text-white transition duration-300 hover:text-[#b49bff]">Home</a>

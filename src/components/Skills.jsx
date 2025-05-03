@@ -21,12 +21,12 @@ const Skills = () => {
   return (
     <section
       id="skills"
-      className="w-full text-white flex items-center justify-center"
+      className="sm:w-full text-white flex flex-col items-center px-4 pb-10 sm:pb-0 sm:px-0"
     >
-      <div className="grid grid-cols-1 md:grid-cols-2 max-w-7xl w-full items-center">
+      <div className="grid grid-cols-1 md:grid-cols-2 w-full items-center">
         
         {/* LEFT COLUMN - TEXT */}
-        <div className='pl-16'>
+        <div className='sm:pl-52 sm:ml-2'>
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
             Tech{' '}
             <span className="break-normal bg-gradient-to-r from-[#ff7eb9] via-[#9429db] to-[#4f2ba3] bg-[length:200%_200%] bg-clip-text text-transparent animate-gradient-x">
@@ -70,8 +70,8 @@ const Skills = () => {
 
         {/* RIGHT COLUMN - 3D MODEL */}
         <div className="w-full h-screen overflow-hidden relative z-0">
-  <Spline className='' scene="https://prod.spline.design/26qmgN4Ad2yjMyXV/scene.splinecode" />
-</div>
+    <Spline className="sm:scale-105 scale-90" scene="https://prod.spline.design/26qmgN4Ad2yjMyXV/scene.splinecode" />
+  </div>
 
       </div>
     </section>
