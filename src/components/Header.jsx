@@ -1,5 +1,5 @@
 import React, { useState, useRef } from 'react';
-import Blackhole from '../assets/videos/blackhole.mp4';
+import Blackhole from '../assets/videos/blackhole2.mp4';
 import { SparklesIcon } from "@heroicons/react/24/solid";
 
 
@@ -27,17 +27,17 @@ export const Header = () => {
     <section id="home" className="relative w-full min-h-screen overflow-hidden">
 
 
-     
-        <video 
-          ref={videoRef}
-          src={Blackhole} 
-          className={`absolute sm:top-[-340px] top-[-230px] h-full w-full left-0 z-[1] object-cover transition-all duration-1000 ${wormholeActive ? 'scale-150 brightness-150' : ''}`} 
-          type="video/mp4"
-          autoPlay
-          muted
-          loop
-          playsInline>
-        </video>
+<video
+    ref={videoRef}
+    src={Blackhole}
+    className={`absolute mt-24 top-0 left-0 w-full h-full object-cover z-[1] transition-all duration-1000 ${
+      wormholeActive ? 'mt-48 scale-150 brightness-150' : ''
+    }`}
+    autoPlay
+    muted
+    loop
+    playsInline
+  />
         
         {/* Wormhole Overlay */}
   <div className={`absolute inset-0 bg-black opacity-0 
@@ -61,7 +61,7 @@ export const Header = () => {
 </div>
 
       <h1 className="text-5xl md:text-7xl font-bold leading-tight text-[#2c1c59]">
-       <span className="bg-gradient-to-r from-[#ff7eb9] via-[#4f2ba3] to-[#3a0ca3] bg-[length:200%_200%] bg-clip-text text-transparent animate-gradient-x">Hello, I'm Selvahini</span>
+       <span className="bg-gradient-to-r from-[#ff7eb9] via-[#9429db] to-[#4f2ba3] bg-[length:200%_200%] bg-clip-text text-transparent animate-gradient-x">Hello, I'm Selvahini</span>
        <br/><span className="break-normal bg-gradient-to-r from-[#ff7eb9] via-[#9429db] to-[#4f2ba3] bg-[length:200%_200%] bg-clip-text text-transparent animate-gradient-x">Kamalarajan</span>
        </h1>
      

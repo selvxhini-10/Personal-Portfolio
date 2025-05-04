@@ -1,23 +1,22 @@
 import React from 'react';
-import Blackhole from '../assets/videos/blackhole.mp4';
+import Blackhole from '../assets/videos/blackhole3.mp4';
 import { FaRegCopyright } from "react-icons/fa";
 
 
 const Contact = () => {
   return (
-    <section className="relative w-full h-[80vh] overflow-hidden">
-      {/* Background video */}
-      <video
-        src={Blackhole}
-        className="absolute sm:pb-5 pb-2 sm:scale-125 rotate-180 top-0 left-0 w-full h-full object-cover z-0"
-        autoPlay
-        muted
-        loop
-        playsInline
-      />
-
-      {/* Content on top of the video */}
-      <div className="absolute bottom-0 left-0 w-full h-80 bg-white/10 backdrop-blur-md text-white shadow-md z-20 flex flex-col items-center justify-center px-4 text-center space-y-6">
+    <section id="#contact" className="relative w-full h-[80vh] overflow-visible pt-24">
+  {/* Background video starting at the top of the section */}
+  <video
+    src={Blackhole}
+    className="absolute pb-80 bottom-0 left-0 w-full h-auto object-contain z-[-1]"
+    autoPlay
+    muted
+    loop
+    playsInline
+  />
+     
+      <div className="absolute bottom-0 left-0 w-full h-80 bg-white/5 backdrop-blur-md text-white shadow-md z-20 flex flex-col items-center justify-center px-4 text-center space-y-6">
 
 {/* Title */}
 <h1 className="text-4xl font-bold">

@@ -6,8 +6,6 @@ import { MapPinIcon } from "@heroicons/react/24/solid";
 import { FaCode } from "react-icons/fa";
 import { GiGraduateCap } from "react-icons/gi";
 
-
-
 const About = () => {
   return (
     <section

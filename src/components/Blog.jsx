@@ -9,7 +9,7 @@ import Pic4 from '../assets/images/4.png';
 const Blog = () => {
   return (
     <section
-      className="text-white flex flex-col items-center px-4 py-10 sm:pb-0 sm:px-0"
+      className="text-white flex flex-col items-center px-4 py-10 sm:pb-0 z-30 sm:px-0"
       
     >
         <div className='container mx-auto max-w-6xl w-full'>
