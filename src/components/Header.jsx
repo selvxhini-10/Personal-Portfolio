@@ -78,12 +78,12 @@ export const Header = () => {
       onClick={() => triggerWormhole()}
     />
   </div>
+  </div>
 </div>
 
  
 </div>
-</div>
-      
+    
       </section>
       
   );

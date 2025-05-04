@@ -5,7 +5,7 @@ import { FaRegCopyright } from "react-icons/fa";
 
 const Contact = () => {
   return (
-    <section id="contact" className="relative w-full h-[80vh] overflow-visible pt-24">
+    <section id="#contact" className="relative w-full h-[80vh] overflow-visible pt-24">
   {/* Background video starting at the top of the section */}
   <video
     src={Blackhole}

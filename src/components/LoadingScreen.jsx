@@ -4,7 +4,7 @@ import LoadingBackground from '../assets/videos/galaxy.mp4';
 
 const LoadingScreen = () => {
   const [text, setText] = useState("");
-  const fullText = "<Hello World />";
+  const fullText = "<Loading />";
   const navigate = useNavigate(); // React Router navigation
 
   useEffect(() => {
