@@ -21,7 +21,7 @@ const Skills = () => {
   return (
     <section
     id="skills"
-    className="sm:w-full text-white flex flex-col items-center px-4 pb-10 sm:pb-0 sm:px-0"
+    className="sm:w-full text-white flex flex-col items-center px-4 pb-10 sm:pb-0 sm:px-4"
   >
     <div className="container gap-12 sm:max-w-6xl w-full grid grid-cols-1 md:grid-cols-2 items-center">
       

@@ -167,7 +167,7 @@ const Projects = () => {
   return (
     <section
       id="projects"
-      className="sm:w-full text-white flex flex-col items-center px-4 pb-10 sm:pb-0 sm:px-0"
+      className="sm:w-full text-white flex flex-col items-center px-4 pb-10 sm:pb-0 sm:px-4"
     >
         <div className='container sm:mx-auto sm:max-w-6xl w-full'>
         <p className='font-semibold text-muted-foreground mx-auto'>MY WORK</p>

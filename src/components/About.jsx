@@ -10,7 +10,7 @@ const About = () => {
   return (
     <section
   id="about"
-  className="sm:w-full text-white flex flex-col items-center px-4 pb-10 sm:pb-0 sm:px-0"
+  className="sm:w-full text-white flex flex-col items-center px-4 pb-10 sm:pb-5 sm:px-4"
 >
   <div className="relative container gap-12 sm:max-w-6xl w-full">
 
@@ -23,7 +23,7 @@ const About = () => {
 
       <h3 className='text-2xl font-semibold'>Aspiring Computer Engineer</h3>
 
-      <div className="inline-flex flex-wrap space-x-2">
+      <div className="flex flex-wrap gap-2">
   <div className="transition duration-300 ease-in-out hover:shadow-[0_0_15px_#d498fb] hover:border-[#d498fb] inline-flex items-center gap-1 sm:gap-2 border border-[#b49bff] bg-opacity-90 rounded-full px-2 py-0.5 sm:px-3 sm:py-1">
     <MapPinIcon className="text-[#b49bff] h-3 w-3 sm:h-4 sm:w-4" />
     <span className="text-xs sm:text-sm font-semibold text-[#d498fb] whitespace-nowrap">
