@@ -141,7 +141,7 @@ const projects = [
   title: "AssistWave - STM32CubeIDE Medical Assistive Device",
   description: "An ultrasonic sensor is used to track hand movements within predefined distance thresholds. An STM32 microcontroller transmits this data via UART communication in Single Wire Half-Duplex Mode to a receiving STM32 Nucleo board over a 1-meter wired connection. Based on the received data, output actions are triggered, such as turning on an LED light, activating a fan, and operating servo motors to open doors.",
   image: "/uart.jpg",
-  tags: ["Unity", "C#", "Circuit Schematics", "Breadboarding"],
+  tags: ["STM32CubeIDE", "UML and I/O Diagrams", "C++", "Circuit Schematics", "Breadboarding"],
   demoUrl: "#", 
   githubUrl: "#",
 },
