@@ -1,6 +1,11 @@
 import React from 'react';
 import {VerticalTimeline, VerticalTimelineElement} from 'react-vertical-timeline-component';
 import {motion} from 'framer-motion';
+import BBPA from '../assets/images/bbpa.png';
+import BrandEQ from '../assets/images/brandeq.png';
+import FarleyFlex from '../assets/images/farleyflex.jpg';
+import NadineSpencer from '../assets/images/nadinespencer.jpg';
+import DanielleSpencer from '../assets/images/daniellespencer.jpg';
 
 import 'react-vertical-timeline-component/style.min.css';
 
@@ -88,6 +93,7 @@ const experiences = [
 
 const Experience = () => {
   return (
+    <>
     <section id="experience" className='flex flex-col px-4 text-white sm:py-10 relative container sm:mx-auto sm:max-w-6xl sm:w-full'>
     <motion.div>
       <h2 className="sm:text-5xl text-4xl font-bold text-white mb-2">
@@ -107,8 +113,74 @@ const Experience = () => {
         </VerticalTimeline>
       </div>
     </motion.div>
-
   </section>
+  <div className="container text-white mx-auto max-w-6xl w-full px-4">
+  <h2 className="sm:text-5xl text-4xl font-bold text-white sm:mb-2">
+    Client{" "}
+    <span className="break-normal bg-gradient-to-r from-[#ff7eb9] via-[#9429db] to-[#4f2ba3] bg-[length:200%_200%] bg-clip-text text-transparent animate-gradient-x">
+      Collaborations
+    </span>
+  </h2>
+
+  <p className="pt-4 text-muted-foreground mb-6">
+    Each collaboration has helped me grow both professionally and creatively, allowing me to tailor my work to meet unique needs and deliver impactful results.
+    Below are some of the amazing clients I've had the pleasure of developing websites and applications for.
+  </p>
+
+  <div className="flex justify-between items-center w-full max-w-6xl mx-auto px-4 mt-6">
+    {/* Logo 1 */}
+    <div className="flex flex-col items-center text-center">
+      <img src={BrandEQ} alt="BrandEQ" className="object-contain aspect-[3/2] w-full max-w-xs" />
+    </div>
+
+    {/* Logo 2 */}
+    <div className="flex flex-col items-center text-center">
+      <img src={BBPA} alt="BrandEQ" className="object-contain aspect-[3/2] w-full max-w-xs" />
+    </div>
+
+    {/* Avatar Tooltips */}
+    <div className="flex justify-between items-center gap-5 mt-6">
+   {/* Danielle Spencer */}
+      <div className="relative group">
+        <img
+          className="h-24 w-24 rounded-sm cursor-pointer"
+          src={DanielleSpencer}
+          alt="Danielle Spencer"
+        />
+        <div className="text-center absolute -bottom-8 left-1/2 transform -translate-x-1/2 scale-0 group-hover:scale-100 transition-all duration-200 bg-gray-800 text-white text-xs px-2 py-1 rounded shadow">
+          Danielle Spencer
+        </div>
+      </div>
+
+      {/* Nadine Spencer */}
+      <div className="relative group">
+        <img
+          className="h-24 w-24 rounded-sm cursor-pointer"
+          src={NadineSpencer}
+          alt="Nadine Spencer"
+        />
+        <div className="text-center absolute -bottom-8 left-1/2 transform -translate-x-1/2 scale-0 group-hover:scale-100 transition-all duration-200 bg-gray-800 text-white text-xs px-2 py-1 rounded shadow">
+          Nadine Spencer
+        </div>
+      </div>
+
+      {/* Farley Flex */}
+      <div className="relative group">
+        <img
+          className="h-24 w-24 rounded-sm cursor-pointer"
+          src={FarleyFlex}
+          alt="Farley Flex"
+        />
+        <div className="text-center absolute -bottom-8 left-1/2 transform -translate-x-1/2 scale-0 group-hover:scale-100 transition-all duration-200 bg-gray-800 text-white text-xs px-2 py-1 rounded shadow">
+          Farley Flex
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  </>
 );
 };
 
